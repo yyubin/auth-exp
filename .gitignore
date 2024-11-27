@@ -1,0 +1,64 @@
+# 공통
+.DS_Store
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.swp
+*.swo
+
+# IDEA 관련 파일
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.sql
+*.h2.db
+
+# OS 및 IDE
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# 환경설정 파일
+*.env
+
+# React 프로젝트
+node_modules/
+build/
+dist/
+*.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm / Yarn lock files
+package-lock.json
+yarn.lock
+
+# ESLint, Prettier, 및 테스트 관련 파일
+.eslintcache
+.prettier/
+coverage/
+jest/
+
+*.yml
